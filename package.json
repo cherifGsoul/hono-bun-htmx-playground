@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "dev": "bun run --hot src/index.tsx",
+    "dev:assets": "bunx --bun vite",
+    "build:assets": "vite build",
+    "serve:assets": "vite preview"
+  },
+  "dependencies": {
+    "hono": "^3.7.2",
+    "htmx.org": "^1.9.6"
+  },
+  "devDependencies": {
+    "bun-types": "^0.6.2",
+    "vite": "^4.4.11"
+  }
+}
